@@ -3,6 +3,8 @@ package com.javiermendonca.listapplication
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.javiermendonca.listapplication.model.CardItem
+import com.javiermendonca.listapplication.model.HeaderItem
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,10 +23,13 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         private val descriptions = listOf(
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+            HeaderItem("First Category"),
+            CardItem("Title 1", "Description 1"),
+            CardItem("Title 2", "Description 2"),
+            CardItem("Title 3", "Description 3"),
+            HeaderItem("Second Category"),
+            CardItem("Title 4", "Description 4"),
+            CardItem("Title 5", "Description 5")
         )
     }
 }
