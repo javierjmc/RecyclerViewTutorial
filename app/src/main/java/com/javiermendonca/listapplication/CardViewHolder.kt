@@ -1,6 +1,6 @@
 package com.javiermendonca.listapplication
 
-import android.view.View
+import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 
-class ItemViewHolder(val card: View) : RecyclerView.ViewHolder(card)
+class CardViewHolder(val card: CardView) : RecyclerView.ViewHolder(card)
