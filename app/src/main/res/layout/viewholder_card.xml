@@ -2,8 +2,9 @@
 <app:androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
 									   xmlns:app="http://schemas.android.com/apk/res-auto"
 									   android:layout_width="match_parent"
-									   android:layout_height="200dp"
+									   android:layout_height="wrap_content"
 									   app:cardCornerRadius="4dp"
+									   app:cardBackgroundColor="#EEF8F3"
 									   android:layout_margin="16dp">
 
 	<LinearLayout android:orientation="vertical"
